@@ -1,0 +1,22 @@
+div {
+    height: 200px;
+    background-image: linear-gradient(to right, red, blue);
+}
+
+button {
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    box-shadow: 00px 10px;
+}
+
+button:hover {
+    box-shadow: 00px 10px rgb(95, 95, 3);
+    /* box-shadow: yellow; */
+}
+
+button:active {
+    margin-top: 10px;
+    box-shadow: none;
+}
